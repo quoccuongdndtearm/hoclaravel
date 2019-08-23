@@ -54,24 +54,19 @@
             <li class="treeview">
               <a href="http://localhost/toan/public/index.php/tongquan">
                 <i class="fa fa-dashboard"></i> <span>Tổng Quan</span> 
+              </a>  
+            </li>
+            <li class="treeview">
+              <a href="http://localhost/toan/public/index.php/dieu-hanh">
+                <i class="fa fa-pie-chart"></i>
+                <span>Điều hành</span> 
               </a>
-              <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i>Phòng kinh doanh</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i>Phòng kĩ thuật</a></li>
-              </ul>
             </li>
             <li class="treeview">
               <a href="http://localhost/toan/public/index.php/donhang">
                 <i class="fa fa-files-o"></i>
                 <span>Báo cáo tổng hợp</span>
               </a>
-              <ul class="treeview-menu" style="display: none;">
-                <li><a href="#"><i class="fa fa-circle-o"></i> Đơn thay lõi</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> Đơn vệ sinh </a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> Đơn sửa chữa </a></li>
-                <li class=""><a href="#"><i class="fa fa-circle-o"></i> Đơn bảo hành</a>
-                </li>
-              </ul>
             </li>
             <li>
               <a href="http://localhost/toan/public/index.php/ton">
