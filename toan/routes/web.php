@@ -36,3 +36,6 @@ Route::get('thiet-lap', function () {
 Route::get('san-pham', function () {
     return view('SanPham.sp');
 });
+Route::get('dieu-hanh', function () {
+    return view('DieuHanh.dh_view');
+});
