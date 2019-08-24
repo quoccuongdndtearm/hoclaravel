@@ -6,5 +6,8 @@
 <body id="new">
 @include('includes.sideleft')
 @include('Donhang.donhang')
+<script>
+    $('.sidebar-menu').SidebarNav()
+  </script>
 </body>
 </html>

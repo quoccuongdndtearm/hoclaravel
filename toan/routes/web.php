@@ -37,5 +37,11 @@ Route::get('san-pham', function () {
     return view('SanPham.sp');
 });
 Route::get('dieu-hanh', function () {
-    return view('DieuHanh.dh_view');
+    return view('DieuHanh.dhTong.dh_view');
+});
+Route::get('dieu-hanh-CSKH', function () {
+    return view('DieuHanh.dhCSKH.dh_view');
+});
+Route::get('dieu-hanh-KD', function () {
+    return view('DieuHanh.dhKD.dh_view');
 });

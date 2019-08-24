@@ -166,3 +166,6 @@ background: #1AA85C;
   background-color: #a03b03 !important;
 }
 
+.sidebar-menu .treeview-menu > li > a:active {
+  display: block!important;
+}

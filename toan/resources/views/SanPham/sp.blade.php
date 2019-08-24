@@ -6,5 +6,8 @@
 <body id="new">
 @include('includes.sideleft')
 @include('SanPham.sanpham')
+<script>
+    $('.sidebar-menu').SidebarNav()
+  </script>
 </body>
 </html>

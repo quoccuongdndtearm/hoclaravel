@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('ThietLap.tl')
 
 @section('content')
 <div class="container">
