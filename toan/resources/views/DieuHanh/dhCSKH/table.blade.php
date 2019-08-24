@@ -1,4 +1,4 @@
-  <div style="width: 72%;float: right;margin: 10px 5px ;background: #ffffff;  border-radius: 7px;    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);">
+  <div style="width: 49%;float: right;margin: 10px 5px ;background: #ffffff;  border-radius: 7px;    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);">
     <p style="padding: 15px 20px 0 20px; color: #333; font-weight: bold">Kỹ Thuật CSKH</p>
     <div class="don_xn">
       <table class="table t_boder table-hover">

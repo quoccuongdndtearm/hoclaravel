@@ -14,7 +14,11 @@
 
 
                     <select style="width: 40%;" name="" id="input" class="form-control" required="required">
-                      <option value=""></option>
+                      <option value="">Kỹ thuật A</option>
+                      <option value="">Kỹ thuật B</option>
+                      <option value="">Kỹ thuật C</option>
+                      <option value="">Kỹ thuật D</option>
+                      <option value="">Kỹ thuật E</option>
                     </select>
                     <div class="panel panel-info">
                       <div class="panel-heading">
@@ -32,7 +36,15 @@
                           <li class="list-group-item"><strong>Kỹ thuật thực hiện:</strong>   Trần C</li>
                           <li class="list-group-item"><strong>Ngày khởi tạo:</strong>   18/08/2019</li>
                           <li class="list-group-item"><strong>Mô tả:</strong>   Khách dễ tính, thu nhập 30tr, rảnh 6h</li>
-                          <li class="list-group-item"><strong>Thời gian làm:</strong><input type="date" name="" id="input" class="form-control" value="" required="required" title=""></li>
+                          <li class="list-group-item"><strong>Cài thời gian:</strong>
+                              <div style="">
+                                <input type="text" id="h_val" placeholder="Giờ" value="" required/> <br/>
+                                <input type="text" id="m_val" placeholder="Phút" value="" required/> <br/>
+                                <input type="text" id="s_val" placeholder="Giây" value="" required/>
+                                <!-- <input type="submit" value="Start" />
+                                <input type="submit" value="Stop" onclick="stop()"/>  <br/> -->
+                              </div>
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -162,7 +174,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary huy_don" style="background-color: #da3333;border-color: #da3333;">Hủy đơn</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-primary" onclick="start()" data-dismiss="modal">Chạy</button>
               </div>
             </div>
           </div>

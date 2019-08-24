@@ -7,7 +7,7 @@
 @include('includes.sideleft')
 @include('Customer.customer')
   <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <script src="Tonkho.js" type='text/javascript'></script>
   <script>
     $('.sidebar-menu').SidebarNav()
