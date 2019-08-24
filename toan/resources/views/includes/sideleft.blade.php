@@ -41,7 +41,7 @@
       <div class="container-fluid">
 
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false" style="position: absolute; right: 0px">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -57,10 +57,16 @@
               </a>  
             </li>
             <li class="treeview">
-              <a href="http://localhost/toan/public/index.php/dieu-hanh">
+              <a href="#">
                 <i class="fa fa-pie-chart"></i>
-                <span>Điều hành</span> 
+                <span>Điều hành</span>
+                <i class="fa fa-angle-left pull-right"></i>
               </a>
+              <ul class="treeview-menu" id="demo">
+                <li><a href="http://localhost/toan/public/index.php/dieu-hanh"><i class="fa fa-circle-o"></i> Điều hành tổng</a></li>
+                <li><a href="http://localhost/toan/public/index.php/dieu-hanh-CSKH"><i class="fa fa-circle-o"></i> Điều hành CSKH</a></li>
+                <li><a href="http://localhost/toan/public/index.php/dieu-hanh-KD"><i class="fa fa-circle-o"></i> Điều hành KD</a></li>
+              </ul>
             </li>
             <li class="treeview">
               <a href="http://localhost/toan/public/index.php/donhang">

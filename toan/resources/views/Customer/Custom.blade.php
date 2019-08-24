@@ -30,5 +30,8 @@ $(document).ready(function(){
   });
 });
 </script>
+<script>
+    $('.sidebar-menu').SidebarNav()
+  </script>
 </body>
 </html>
